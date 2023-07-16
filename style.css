@@ -72,6 +72,12 @@
     margin-bottom: 15px;
 }
 
+.banner-img img {
+    width: 100%;
+}
+
+
+
 /* responsive for mobile screen */
 @media screen and (max-width: 576px) {
     .header {
