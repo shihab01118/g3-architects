@@ -112,6 +112,7 @@
 
 /* responsive for mobile screen */
 @media screen and (max-width: 576px) {
+    /* header section */
     .header {
         padding: 20px;
     }
@@ -124,6 +125,21 @@
     .navbar ul {
         text-align: center;
         margin-top: 30px;
+    }
+
+    /* team section */
+    .team {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+        padding: 20px;
+    }
+
+    .team-images {
+        grid-template-columns: 1fr;
+    }
+
+    .team-images img {
+        width: 100%;
     }
 }
 
@@ -140,5 +156,16 @@
     .navbar ul {
         margin-top: 30px;
         gap: 3rem;
+    }
+
+    /* team section */
+    .team {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+        padding: 50px;
+    }
+    
+    .team-images img {
+        width: 100%;
     }
 }
