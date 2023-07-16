@@ -16,6 +16,21 @@
     color: #FF900E;
 }
 
+.section-text {
+    color: #727272;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF900E;
+    border: none;
+    border-radius: .5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    margin: 50px 0;
+}
+
 /* header section */
 .header {
     background-color: rgba(255, 144, 14, 0.10);
@@ -42,6 +57,19 @@
     color: #424242;
     font-size: 1.125rem;
     font-weight: 500;
+}
+
+/* banner section */
+.banner-content {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 /* responsive for mobile screen */
